@@ -1,0 +1,79 @@
+body {
+  background-color: #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #1e90ff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+nav h1 {
+  color: white;
+  font-size: 22px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  height: 400px;
+  overflow-y: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  width: fit-content;
+  max-width: 70%;
+  clear: both;
+}
+
+.left {
+  background-color: #d4edda;
+  float: left;
+}
+
+.right {
+  background-color: #cce5ff;
+  float: right;
+}
+
+.send {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #eee;
+  position: sticky;
+  bottom: 0;
+}
+
+#messageInp {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
